@@ -1,0 +1,2 @@
+-- Constraints and indexes are defined in 001_initial.sql for a clean database.
+-- Kept as a versioned no-op to preserve the historical migration sequence.
