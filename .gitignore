@@ -1,0 +1,38 @@
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/api
+/stdv2
+
+# Tests y cobertura
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# Workspace de Go
+go.work
+go.work.sum
+
+# Variables de entorno (se versiona solo .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs y temporales
+*.log
+tmp/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude Code (configuracion local)
+.claude/settings.local.json
